@@ -1,13 +1,67 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #FFF;
+  font-family: 'Montserrat', sans-serif  ;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.monstFont{
+  font-family: 'Montserrat', sans-serif !important ;
+}
+.monstSansFont{
+  font-family: 'Montserrat Alternates', sans-serif !important ;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+.vh_10{
+  margin-top:10vh !important;
+  }
+
+  .blackBtn{
+    background: #000 !important;
+    color: #FFF !important;
+    text-transform: uppercase;
+    border-radius: 0% !important;
+    margin-top: 20px;
+  }
+
+  .pageHeader{
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 50px !important ;
+    font-family: 'Montserrat', sans-serif !important ;
+  }
+/**********mediaQuery *****************************************************/
+@media screen and (max-width:576px) {
+  #searchInput{
+      width: 75%;
+      font-size: 18px !important;
+      margin: auto;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:577px)  {
+
+}
+
+
+@media screen and (max-width:992px) and (min-width:769px)  {
+
+}
+
+
+@media screen and (max-width:1200px)and (min-width:993px)  {
+ 
+}
+
+
+@media screen and (max-width:1400px)and (min-width:1201px)  {
+ 
 }
